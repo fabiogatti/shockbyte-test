@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+    @apply px-5;
+    @apply py-3;
+    @apply rounded-lg;
+    @apply inline-flex;
+    @apply bg-blue-active;
+    @apply text-white-text;
+}
+
+.icon-btn {
+    @apply p-4;
+    @apply rounded-lg;
+}
+
+.active {
+    @apply bg-blue-active;
+}
+
+.font-header{
+    @apply font-semibold;
+    @apply text-2xl;
+}
+
+.font-p{
+    @apply text-base;
+    @apply font-medium;
+}
+
+.font-p-small{
+    @apply text-base;
+    @apply font-normal;
+}
