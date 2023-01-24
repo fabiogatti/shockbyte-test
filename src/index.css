@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 .button {
     @apply px-5;
     @apply py-3;
@@ -33,4 +35,23 @@
 .font-p-small{
     @apply text-base;
     @apply font-normal;
+}
+
+.font-pagination{
+    @apply text-xl;
+    @apply font-medium;
+}
+
+.pagination-active{
+    @apply bg-blue-active;
+    @apply rounded-md;
+    @apply px-3;
+    @apply py-0.5;
+}
+
+.header-item-active{
+    @apply text-blue-active;
+    @apply pb-2.5;
+    @apply border-b-2;
+    @apply border-blue-active;
 }
