@@ -10,7 +10,7 @@
       </div>
       <div class="flex pt-3">
         <img width="15" src="@/assets/date.svg" alt="date icon" />
-        <p class="font-p pl-3">
+        <p class="font-p pl-3 text-left">
           {{ lastUpdated ? dateLastUpdate : "Missing last date updated" }}
         </p>
       </div>

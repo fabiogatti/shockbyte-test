@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-6">
+  <div class="grid grid-cols-2 xl:grid-cols-5 gap-6">
     <BirdhouseItem
       v-for="bHouse in birdhouseData.items"
       @click="itemClicked(bHouse.birdhouse)"
